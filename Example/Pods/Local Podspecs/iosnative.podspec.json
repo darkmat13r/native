@@ -1,0 +1,22 @@
+{
+  "name": "iosnative",
+  "version": "0.1.0",
+  "summary": "A short description of iosnative.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/darkmat13r/iosnative",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "darkmat13r": "darkmat13r@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/darkmat13r/iosnative.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "source_files": "iosnative/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module iosnative {
+  umbrella header "iosnative-umbrella.h"
+
+  export *
+  module * { export * }
+}

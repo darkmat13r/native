@@ -1,0 +1,16 @@
+PODS:
+  - iosnative (0.1.0)
+
+DEPENDENCIES:
+  - iosnative (from `../`)
+
+EXTERNAL SOURCES:
+  iosnative:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iosnative: 437291d836641bfa09a6f769f5ab06a813792a78
+
+PODFILE CHECKSUM: 6bea522f0cfa0dbb9b8c3a0dd2b7e1a85f95afc6
+
+COCOAPODS: 1.12.1
