@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '16.0'
+
+target 'iosnative_Example' do
+  pod 'iosnative', :path => '../'
+
+  target 'iosnative_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
