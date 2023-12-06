@@ -8,8 +8,8 @@
 import Foundation
 
 
-class FileHelper{
-    static func readFilesAt(_ url: URL, _ callback: @escaping(Result<[String], Error>) -> Void) {
+public class FileHelper{
+    public static func readFilesAt(_ url: URL, _ callback: @escaping(Result<[String], Error>) -> Void) {
         guard url.startAccessingSecurityScopedResource() else {
             let error = NSError(domain: "YourDomain", code: 1, userInfo: [NSLocalizedDescriptionKey: "Failed to access security-scoped resource"])
             callback(.failure(error))
