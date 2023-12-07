@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { 'darkmat13r' => 'darkmat13r@gmail.com' }
   s.source           = { :git => 'https://github.com/darkmat13r/iosnative.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version  = '5.7'
   s.ios.deployment_target = '16.0'
 
   s.source_files = 'iosnative/Classes/**/*'
